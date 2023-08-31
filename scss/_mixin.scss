@@ -1,0 +1,10 @@
+@mixin txtfontsize {
+    color: $text-color;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+}
+@mixin flexprop {
+    display: flex;
+    align-items: center;
+}
