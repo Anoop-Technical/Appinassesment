@@ -283,11 +283,11 @@ html {
                 width: 100%;
 
                 .top {
-                    flex-direction: column;
+                    justify-content: center;
                 }
 
                 .bottom {
-                    flex-direction: column;
+                    justify-content: center;
                 }
             }
         }
@@ -297,7 +297,11 @@ html {
 
 @media only screen and (max-width: 767.98px) {
     .main-wrapper {
+        padding: 130px 15px 50px;
+
         .header {
+            padding: 0 15px;
+
             .h-left {
                 .search {
                     display: none;
@@ -317,10 +321,38 @@ html {
                 width: 100%;
             }
         }
+
+        .dp-flex {
+            flex-direction: column;
+
+            .side-bar {
+                width: 100%;
+                margin-bottom: 50px;
+
+                .menu-items {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    gap: 15px;
+                }
+            }
+
+            .content-section {
+
+                .top {
+                    flex-direction: column;
+                }
+
+                .bottom {
+                    flex-direction: column;
+                }
+            }
+        }
     }
 }
 
 @keyframes heartBeat {
+
     0%,
     100% {
         transform: scale(1);
