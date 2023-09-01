@@ -212,9 +212,10 @@ html {
 @media only screen and (max-width: 1199.98px) {
     .main-wrapper {
         overflow: hidden;
-        padding: 120px 50px 50px;
+        padding: 120px 15px 50px;
 
         .header {
+            padding: 0 15px;
             transition: .2s;
 
             .h-right {
