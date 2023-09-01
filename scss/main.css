@@ -218,7 +218,7 @@ html {
     border: 0;
   }
   .main-wrapper .header .h-right .navbar.open {
-    right: 50px;
+    right: 15px;
   }
   .main-wrapper .header .h-right .user-cart #hamburger {
     display: block;
